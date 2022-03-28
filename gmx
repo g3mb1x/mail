@@ -1,12 +1,15 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 pkg install pwgen
+Pkg install termux-api
 
-#modpes
-su -c settings put global airplane_mode_on 1
-su -c am broadcast -a android.intent.action.AIRPLANE_MODE
-su -c settings put global airplane_mode_on 0
-su -c am broadcast -a android.intent.action.AIRPLANE_MODE
+su -c pm install -r -d de.apk
+su -c pm install anon.apk
+su -c pm install api.apk
+
+yes | cp -fr /source/file /destination
+
+
 
 echo "Update selesai"
 
