@@ -7,7 +7,6 @@ su -c pm install -r -d de.apk
 su -c pm install anon.apk
 su -c pm install api.apk
 
-yes | cp -fr Update ~/.shortcuts/
 yes | cp -fr -t ~/.shortcuts/tasks/ Alamat Clear JDID Start
 chmod -R 700 ~/.shortcuts/
 
