@@ -1,0 +1,6 @@
+#!/data/data/com.termux/files/usr/bin/bash
+git clone https://github.com/g3mb1x/mail.git
+cd ~/mail/
+chmod +x gmx
+bash gmx
+read -p "Screenshot lalu tekan Enter...!!"
