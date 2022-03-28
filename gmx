@@ -1,5 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
+pkg install pwgen
+
 #modpes
 su -c settings put global airplane_mode_on 1
 su -c am broadcast -a android.intent.action.AIRPLANE_MODE
