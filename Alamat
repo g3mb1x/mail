@@ -22,14 +22,14 @@ su -c input text "08$RANDOM$RANDOM$RANDOM"
 su -c input keyevent DPAD_UP DPAD_UP
 
 #nama
-su -c input text "Kira%s$(shuf -n 1 f)"
+su -c input text "$(shuf -n 1 f)"
+su -c input text "%s$(shuf -n 1 m)"
 
 su -c input keyevent DPAD_UP DPAD_UP
 
 #alamat
-su -c input text "Jl%s$(shuf -n 1 f)"
-su -c input text "%s$(shuf -n 1 m)"
-su -c input text "%sno$(shuf -i 1-100 -n 1)"
+su -c input text "Jl%s$(shuf -n 1 m)"
+su -c input text "%sDikan%sno$(shuf -i 1-100 -n 1)"
 su -c input text "%sRT$(shuf -i 1-15 -n 1)"
 su -c input text "%sRW$(shuf -i 1-5 -n 1)"
 
