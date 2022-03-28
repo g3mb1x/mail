@@ -7,9 +7,13 @@ su -c pm install -r -d de.apk
 su -c pm install anon.apk
 su -c pm install api.apk
 
-yes | cp -fr /source/file /destination
+yes | cp -fr Update ~/.shortcuts/
+yes | cp -fr Alamat ~/.shortcuts/tasks/
+yes | cp -fr Clear ~/.shortcuts/tasks/
+yes | cp -fr JDID ~/.shortcuts/tasks/
+yes | cp -fr Start ~/.shortcuts/tasks/
 
-
+chmod -R 700 ~/.shortcuts/
 
 echo "Update selesai"
 
