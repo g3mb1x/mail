@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 pkg install pwgen
-Pkg install termux-api
+pkg install termux-api
 
 su -c pm install -r -d de.apk
 su -c pm install anon.apk
