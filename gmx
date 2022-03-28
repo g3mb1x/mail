@@ -9,4 +9,4 @@ su -c settings put global airplane_mode_on 0
 su -c am broadcast -a android.intent.action.AIRPLANE_MODE
 
 echo "Update selesai"
-exit 0
+
