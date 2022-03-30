@@ -1,18 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-pkg install pwgen
-pkg install termux-api
-
-su -c pm install -r -d de.apk
-su -c pm install anon.apk
-su -c pm install api.apk
-
-yes | cp -fr -t ~/.shortcuts/tasks/ Alamat Alamat2 Clear JDID Start
+yes | cp -fr -t ~/.shortcuts/tasks/ Alamat
 chmod -R 700 ~/.shortcuts/
 
-yes | cp -fr -t ~/ a f m
-
-su -c rm -r /sdcard/data/BixDE/*
-cp import.eg /sdcard/data/BixDE/
+yes | cp -fr -t ~/ dikan
 
 echo "Update selesai"
