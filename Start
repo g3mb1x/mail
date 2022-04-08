@@ -48,14 +48,14 @@ sleep 2
 #tanggal
 su -c input keyevent TAB ENTER
 sleep 1
-su -c input swipe 540 "$(shuf -i 1600-1800 -n 1)" 540 "$(shuf -i 400-1000 -n 1)"
+su -c input swipe 540 "$(shuf -i 1100-1300 -n 1)" 540 "$(shuf -i 300-1000 -n 1)"
 sleep 1
-su -c input tap 540 "$(shuf -i 400-1800 -n 1)"
+su -c input tap 540 "$(shuf -i 300-1300 -n 1)"
 
 #bulan
 su -c input keyevent TAB ENTER
 sleep 1
-su -c input tap 540 "$(shuf -i 400-1800 -n 1)"
+su -c input tap 540 "$(shuf -i 300-1300 -n 1)"
 
 #tahun
 su -c input keyevent TAB
