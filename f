@@ -1,13 +1,13 @@
 Adiwidya  Memiliki pengetahuan tinggi
 Adriyani  Seorang perempuan yang memiliki pendirian teguh dan kuat
 Agniasari  Bunga api yang indah
-Ainur  Si pembawa cahaya terang adalah arti dari nama ini.
+Ainur  Si pembawa cahaya terang adalah arti dari nama ini
 Ariani  Seseorang yang berhati muda
-Ajeng  Cantik dan memiliki kemuliaan.
-Ambar  Artinya berbau harum atau semerbak.
+Ajeng  Cantik dan memiliki kemuliaan
+Ambar  Artinya berbau harum atau semerbak
 Ambarsari  Aroma yang menyenangkan
 Ambarwati  Artinya harum berpikiran cemerlang
-Andayani  Bentuk lain dari Handayani yang artinya pemberi manfaat.
+Andayani  Bentuk lain dari Handayani yang artinya pemberi manfaat
 Andhini  Seorang anak yang penurut
 Andita Ananta  Seorang pemimpin yang jeli
 Anindita  Anak yang sempurna dan lugu
@@ -15,14 +15,14 @@ Anindyaswari  Sempurna pendiam dan jujur
 Anjani  Seorang anak yang tekun
 Apsarini  Cantik bagaikan bidadari
 Arawinda  Bunga teratai
-Ardiningrum  Seorang perempuan yang harum suci dan memiliki kebaikan hati.
+Ardiningrum  Seorang perempuan yang harum suci dan memiliki kebaikan hati
 Aristawidya  Penuh dengan kelemah lembutan
-Arjani  Selalu dipenuhi kegembiraan.
+Arjani  Selalu dipenuhi kegembiraan
 Ariani  Artinya muda
 Arini  Artinya awet muda
 Arkadewi  Anak perempuan cantik bagai bidadari yang menjadi penerang keluarga
-Asmarani Asmarini  Seorang anak hebat.
-Astagina  Selalu berbuat kebaikan.
+Asmarani Asmarini  Seorang anak hebat
+Astagina  Selalu berbuat kebaikan
 Astutiningtyas  Memiliki hati terpuji
 Ayunda  Anak perempuan yang cantik
 Aswini  Terang laksana bintang
@@ -67,7 +67,7 @@ Cahya  Artinya cahaya
 Cahyaningrum  Bercahaya terang dan berbau harum
 Cakrawati  Anak perempuan yang mencintai lingkungan
 Cempaka  Nama sebuah bunga yang harum
-Candramaya  Anak perempuan yang cantik bagai bulan purnama.
+Candramaya  Anak perempuan yang cantik bagai bulan purnama
 Chitra  Periang
 Cintiya  Cantik
 Cendrawati  Memiliki daya pikir yang cemerlang
@@ -85,7 +85,7 @@ Danastri  Anak perempuan yang cantik
 Danurdara  Kaya ilmu pengetahuan
 Darmaya  anak yang membawa keselamatan bagi keluarga
 Dewani  Kemuliaan yang tersembunyi adalah arti dari nama ini
-Dewi  Bidadari cantik merupakan makna dari nama ini.
+Dewi  Bidadari cantik merupakan makna dari nama ini
 Dian  Pelita penerang hati orangtua
 Dianti  Anak perempuan yang istimewa
 Dita Ditya  Anak yang diberi kelebihan
@@ -130,7 +130,7 @@ Hapsara Hapsari  Perhiasan yang cantik adalah arti dari nama ini
 Hardiyanti  Perempuan berhati indah
 Hartinah Hartini  Sosok yang sangat berarti
 Herning  Perempuan yang memiliki sifat halus nan lembut
-Hesti Hestu  Sungguh-sungguh adalah arti nama ini.
+Hesti Hestu  Sungguh-sungguh adalah arti nama ini
 Handayani  Anak yang memberi manfaat
 Harjanti  Anak yang unggul
 Harsana  Gembira
@@ -142,7 +142,7 @@ Helmawati  Anak yang mempunyai jiwa seni
 Ikawati  Anak tercantik di dunia
 Imas  Anak yang memiliki kebijaksanaan
 Indriana  Kecantikan yang tersembunyi
-Irawati  Anak yang cerdas.
+Irawati  Anak yang cerdas
 Iswara  Perempuan yang dihormati
 Indraswari  Anak yang memiliki kebaikan
 Indri  Anak yang cantik
@@ -179,7 +179,7 @@ Kila  Kilau
 Kusuma  Cantik seperti bunga
 Laksmiwati  Anak perempuan yang cantik
 Laras  Sebuah keharmonisan
-Lestari  Sesuatu yang terjaga keindahannya abadi.
+Lestari  Sesuatu yang terjaga keindahannya abadi
 Listiani  Anak perempuan yang cantik
 Lyan  Anak yang berbeda
 Laksita  Cekatan
@@ -190,7 +190,7 @@ Lintang  Bintang
 Lisah  Minyak
 Loma  Penuh dengan kebajikan
 Lukita  Bertahan tetap berdiri
-Maharani  Seorang permaisuri ratu.
+Maharani  Seorang permaisuri ratu
 Maheswari  Seorang bidadari cantik
 Manika  Batu permata yang sangat berharga
 Manyura  Burung merak
@@ -232,8 +232,8 @@ Padma  Bunga
 Padmasari  Batu permata yang indah
 Paramastri  Anak perempuan yang cantik bagai bidadari
 Parmadita  Anak perempuan yang pandai
-Parwani  Bulan penuh adalah arti nama ini.
-Pertiwi  Bumi tanah air.
+Parwani  Bulan penuh adalah arti nama ini
+Pertiwi  Bumi tanah air
 Pramudita  Anak yang cerdas
 Puspaningtyas  Bunga kalbu adalah arti dari nama ini
 Putri  Seorang anak perempuan
@@ -246,7 +246,7 @@ Purbawisesa  Kekuatan yang sesungguhnya
 Purnama  Cahaya bulan purnama
 Puspa  Bunga
 Puspita  Bunga
-Radmila  Seorang perempuan yang bekerja untuk rakyat.
+Radmila  Seorang perempuan yang bekerja untuk rakyat
 Rara  Seorang gadis perawan
 Rasmi  Anak yang cantik jelita
 Ratih  Dewi Cinta dan Kecantikan
@@ -328,7 +328,7 @@ Windriya  Mulia
 Wulan  Rembulan
 Wuri  Yang di belakang
 Wusana  Yang di akhir
-Yulianti  Anak perempuan cantik yang lahir di bulan Juli.
+Yulianti  Anak perempuan cantik yang lahir di bulan Juli
 Yuni  Anak yang menghormati orangtua
 Yuyun  Cantik nan rupawan
 Yulinar  Anak perempuan yang lahir di bulan Juli
