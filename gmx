@@ -3,7 +3,7 @@
 #updateAPK
 su -c pm install -r -d olook.apk
 
-yes | cp -fr -t ~/.shortcuts/tasks/ Alamat Alamat2 Alamat3 Clear JDID Start Start2
+yes | cp -fr -t ~/.shortcuts/tasks/ Alamat Alamat2 Alamat3 Clear Clear2 JDID Start Start2
 yes | cp -fr -t ~/.shortcuts/ GantiHP
 chmod -R 700 ~/.shortcuts/
 
