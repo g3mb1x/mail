@@ -36,9 +36,9 @@ su -c am start -S ua.browser.operator784/.MainActivity
 sleep 8
 
 #username
-U=$(pwgen $(shuf -i 8-20 -n 1) 1)
-su -c input text $U
-echo $U | termux-clipboard-set
+U=$(pwgen "$(shuf -i 8-20 -n 1)" 1)
+su -c input text "$U"
+echo "$U" | termux-clipboard-set
 su -c input keyevent ENTER
 sleep 1
 
