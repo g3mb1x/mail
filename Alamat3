@@ -1,0 +1,40 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+su -c am start -S -W jd.cdyjy.overseas.market.indonesia/jd.overseas.market.address.view.activity.ActivitySearchPlaces
+
+#cari alamat
+su -c input text $(shuf -n 1 a)
+sleep 1
+su -c input keyevent DPAD_DOWN DPAD_DOWN SPACE
+sleep 5
+
+#jump
+#su -c input swipe 440 540 $(shuf -i 340-640 -n 1) $(shuf -i 340-640 -n 1)
+#sleep 5
+
+#default
+su -c input keyevent DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN SPACE
+
+#hp
+su -c input keyevent DPAD_UP DPAD_UP DPAD_UP
+su -c input text 08$RANDOM$RANDOM$RANDOM
+
+#nama
+su -c input keyevent DPAD_UP DPAD_UP
+su -c input text $(shuf -n 1 m2)
+su -c input text %s$(shuf -n 1 m2)
+
+#alamat
+su -c input keyevent DPAD_UP DPAD_UP
+su -c input text Jl.%s"$(shuf -n 1 jl)"%sNo.%sX"$(shuf -i 900-999 -n 1)"/%sBlok%sX"$(shuf -i 90-99 -n 1)"
+
+#wilayah
+su -c input keyevent DPAD_UP DPAD_UP SPACE
+su -c input keyevent DPAD_DOWN DPAD_DOWN DPAD_DOWN SPACE
+su -c input keyevent DPAD_DOWN SPACE
+su -c input keyevent DPAD_DOWN SPACE
+
+#simpan
+su -c input keyevent DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN TAB SPACE
+
+exit 0
