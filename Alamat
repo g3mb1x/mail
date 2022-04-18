@@ -8,8 +8,8 @@ su -c input keyevent DPAD_DOWN DPAD_DOWN SPACE
 sleep 5
 
 #jump
-su -c input swipe 350 400 $(shuf -i 250-500 -n 1) $(shuf -i 250-500 -n 1)
-sleep 5
+#su -c input swipe 350 400 $(shuf -i 250-500 -n 1) $(shuf -i 250-500 -n 1)
+#sleep 5
 
 #default
 su -c input keyevent DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN SPACE
@@ -25,8 +25,8 @@ su -c input text %s$(shuf -n 1 m)
 
 #alamat
 su -c input keyevent DPAD_UP DPAD_UP
-su -c input text Jl.%s"$(shuf -n 1 m)"
-su -c input text %s"$(shuf -n 1 dikan)"%sNo."$(shuf -i 1-100 -n 1)"%sRT."$(shuf -i 01-15 -n 1)"%sRW."$(shuf -i 01-05 -n 1)"
+su -c input text Jl.%s$(shuf -n 1 m)
+su -c input text %s$(shuf -n 1 dikan)%sNo.$(shuf -i 1-100 -n 1)%sRT.$(shuf -i 1-15 -n 1)%sRW.$(shuf -i 1-5 -n 1)
 
 #wilayah
 su -c input keyevent DPAD_UP DPAD_UP SPACE
