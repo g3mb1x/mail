@@ -1,39 +1,40 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-su -c am start -S -W jd.cdyjy.overseas.market.indonesia/jd.overseas.market.address.view.activity.ActivitySearchPlaces
-
 #cari alamat
-su -c input text "$(shuf -n 1 a)"
+su -c am start -S -W jd.cdyjy.overseas.market.indonesia/jd.overseas.market.address.view.activity.ActivitySearchPlaces
+su -c input text $(shuf -n 1 a)
 sleep 1
-
-su -c input keyevent TAB TAB ENTER
+su -c input keyevent DPAD_DOWN DPAD_DOWN SPACE
 sleep 5
 
 #jump
-su -c input swipe 540 840 $(shuf -i 400-700 -n 1) $(shuf -i 700-1000 -n 1)
+su -c input swipe 350 400 $(shuf -i 250-500 -n 1) $(shuf -i 250-500 -n 1)
 sleep 5
 
-su -c input keyevent DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN
-su -c input keyevent DPAD_UP DPAD_UP DPAD_UP
+#default
+su -c input keyevent DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN SPACE
 
 #hp
-su -c input text "08$RANDOM$RANDOM$RANDOM"
-
-su -c input keyevent DPAD_UP DPAD_UP
+su -c input keyevent DPAD_UP DPAD_UP DPAD_UP
+su -c input text 08$RANDOM$RANDOM$RANDOM
 
 #nama
-su -c input text "$(shuf -n 1 f)"
-su -c input text "%s$(shuf -n 1 m)"
-
 su -c input keyevent DPAD_UP DPAD_UP
+su -c input text $(shuf -n 1 f)
+su -c input text %s$(shuf -n 1 m)
 
 #alamat
-su -c input text "Jl%s$(shuf -n 1 m)"
-su -c input text "%s$(shuf -n 1 dikan)"
-su -c input text "%sno$(shuf -i 1-100 -n 1)"
-su -c input text "%sRT$(shuf -i 1-15 -n 1)"
-su -c input text "%sRW$(shuf -i 1-5 -n 1)"
+su -c input keyevent DPAD_UP DPAD_UP
+su -c input text Jl.%s"$(shuf -n 1 m)"
+su -c input text %s"$(shuf -n 1 dikan)"%sNo."$(shuf -i 1-100 -n 1)"%sRT."$(shuf -i 01-15 -n 1)"%sRW."$(shuf -i 01-05 -n 1)"
 
-su -c input keyevent TAB TAB TAB TAB TAB ENTER TAB ENTER
+#wilayah
+su -c input keyevent DPAD_UP DPAD_UP SPACE
+su -c input keyevent DPAD_DOWN DPAD_DOWN DPAD_DOWN SPACE
+su -c input keyevent DPAD_DOWN SPACE
+su -c input keyevent DPAD_DOWN SPACE
+
+#simpan
+su -c input keyevent DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN DPAD_DOWN TAB SPACE
 
 exit 0
