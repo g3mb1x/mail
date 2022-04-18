@@ -8,7 +8,7 @@ su -c input keyevent DPAD_DOWN DPAD_DOWN SPACE
 sleep 5
 
 #jump
-#su -c input swipe 350 400 $(shuf -i 250-500 -n 1) $(shuf -i 250-500 -n 1)
+#su -c input swipe 440 540 $(shuf -i 340-640 -n 1) $(shuf -i 340-640 -n 1)
 #sleep 5
 
 #default
