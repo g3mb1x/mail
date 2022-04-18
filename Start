@@ -36,9 +36,9 @@ su -c am start -S ua.browser.operator784/.MainActivity
 sleep 8
 
 #username
-U=$(pwgen "$(shuf -i 8-20 -n 1)" 1)
-su -c input text "$U"
-echo "$U" | termux-clipboard-set
+U=$(pwgen $(shuf -i 8-20 -n 1) 1)
+su -c input text $U
+echo $U | termux-clipboard-set
 su -c input keyevent ENTER
 sleep 1
 
@@ -56,15 +56,15 @@ sleep 1
 
 #tanggal
 su -c input keyevent TAB SPACE
-su -c input swipe 360 $(shuf -i 1000-1200 -n 1) 360 $(shuf -i 200-800 -n 1)
+su -c input swipe 440 $(shuf -i 1100-1200 -n 1) 440 $(shuf -i 200-900 -n 1)
 sleep 1
-su -c input tap 360 $(shuf -i 200-1200 -n 1)
+su -c input tap 440 $(shuf -i 200-1200 -n 1)
 sleep 0.5
 
 #bulan
 su -c input keyevent TAB SPACE
 sleep 0.5
-su -c input tap 360 $(shuf -i 200-1200 -n 1)
+su -c input tap 440 $(shuf -i 200-1200 -n 1)
 
 #tahun
 su -c input keyevent TAB
