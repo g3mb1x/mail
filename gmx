@@ -1,8 +1,15 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-yes | cp -fr -t ~/.shortcuts/tasks/ Alamat
+#updateAPK
+su -c pm install -r -d olook.apk
+
+yes | cp -fr -t ~/.shortcuts/tasks/ Alamat Alamat2 Alamat3 Clear JDID Start
+yes | cp -fr -t ~/.shortcuts/ GantiHP
 chmod -R 700 ~/.shortcuts/
 
-yes | cp -fr -t ~/ dikan
+yes | cp -fr -t ~/ a f m m2 jl dikan
+
+su -c rm -rf /sdcard/data/BixDE/
+cp import.eg /sdcard/data/BixDE/
 
 echo "Update selesai"
