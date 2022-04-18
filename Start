@@ -3,30 +3,35 @@
 #modpes
 su -c settings put global airplane_mode_on 1
 su -c am broadcast -a android.intent.action.AIRPLANE_MODE
-sleep 1
+sleep 0.5
 su -c settings put global airplane_mode_on 0
 su -c am broadcast -a android.intent.action.AIRPLANE_MODE
 
 #start DE
 su -c am start -S -W gem.bix.de/gem.bix.de.MainActivity
-sleep 1
-su -c input keyevent TAB TAB TAB ENTER TAB ENTER
-sleep 1
-su -c input keyevent TAB ENTER 
-sleep 1
-su -c input keyevent DPAD_LEFT DPAD_LEFT DPAD_LEFT ENTER DPAD_RIGHT ENTER
+sleep 0.5
+su -c input keyevent TAB TAB TAB SPACE TAB SPACE
+su -c input keyevent TAB SPACE 
+su -c input keyevent DPAD_LEFT DPAD_LEFT DPAD_LEFT SPACE DPAD_RIGHT SPACE
 
 #filex
 su -c am force-stop ua.browser.operator784
 su -c am force-stop jd.cdyjy.overseas.market.indonesia
-su -c am force-stop com.google.android.webview
-su -c am force-stop com.android.chrome
+su -c am force-stop vtechnotm.com.deviceid
+
 su -c am force-stop com.google.android.gms
 su -c am force-stop com.android.vending
-su -c rm -rf /sdcard/Android/data/
+su -c am force-stop com.android.chrome
+su -c am force-stop com.google.android.webview
 su -c am kill-all
-sleep 1
 
+su -c rm -rf /sdcard/Android/data/jd.cdyjy.overseas.market.indonesia/
+su -c rm -rf /sdcard/Android/data/com.google.android.gms/
+su -c rm -rf /sdcard/Android/data/com.android.vending/
+su -c rm -rf /sdcard/Android/data/com.google.android.webview/
+su -c rm -rf /sdcard/Android/data/ua.browser.operator784/
+
+#OUTLOOK
 su -c am start -S ua.browser.operator784/.MainActivity
 sleep 8
 
@@ -35,35 +40,35 @@ U=$(pwgen "$(shuf -i 8-20 -n 1)" 1)
 su -c input text "$U"
 echo "$U" | termux-clipboard-set
 su -c input keyevent ENTER
-sleep 2
+sleep 1
 
 #password
-su -c input text "saciladh1"
-su -c input keyevent ENTER
-sleep 2
+su -c input text nko9mlp0
+su -c input keyevent TAB TAB SPACE ENTER
+sleep 1
 
 #nama
-su -c input text "$(shuf -n 1 f)"
+su -c input text $(shuf -n 1 f)
 su -c input keyevent TAB
-su -c input text "$(shuf -n 1 m)"
+su -c input text $(shuf -n 1 m)
 su -c input keyevent ENTER
-sleep 2
+sleep 1
 
 #tanggal
-su -c input keyevent TAB ENTER
+su -c input keyevent TAB SPACE
+su -c input swipe 360 $(shuf -i 1000-1200 -n 1) 360 $(shuf -i 200-800 -n 1)
 sleep 1
-su -c input swipe 540 "$(shuf -i 1600-1800 -n 1)" 540 "$(shuf -i 400-1000 -n 1)"
-sleep 1
-su -c input tap 540 "$(shuf -i 400-1800 -n 1)"
+su -c input tap 360 $(shuf -i 200-1200 -n 1)
+sleep 0.5
 
 #bulan
-su -c input keyevent TAB ENTER
-sleep 1
-su -c input tap 540 "$(shuf -i 450-1800 -n 1)"
+su -c input keyevent TAB SPACE
+sleep 0.5
+su -c input tap 360 $(shuf -i 200-1200 -n 1)
 
 #tahun
 su -c input keyevent TAB
-su -c input text "$(shuf -i 1970-2005 -n 1)"
+su -c input text $(shuf -i 1970-2005 -n 1)
 su -c input keyevent ENTER
 
 exit 0
